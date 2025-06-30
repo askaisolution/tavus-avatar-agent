@@ -29,3 +29,6 @@ body {
 .main-layout {
   @apply min-h-screen px-6 py-8;
 }
+.control-btn {
+  @apply w-10 h-10 bg-black bg-opacity-60 text-white rounded-full flex items-center justify-center hover:bg-opacity-80 transition;
+}
